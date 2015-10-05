@@ -1,0 +1,37 @@
+{
+  "name": "<%= lib_name %>",
+  "version": "<%= lib_version %>",
+  "authors": [
+    "<%= lib_authors_name %> <<%= lib_authors_email %>>"
+  ],
+  "description": "",
+  "main": [
+    "dist/*.min.js",
+    "dist/*.min.css"
+  ],
+  "keywords": [
+    "angular",
+    "loading"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.5",
+    "underscore":"~1.8.3"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.4.5"
+  },
+  "resolutions": {
+    "jquery": "~2.1.4",
+    "angular": "~1.4.5"
+  }
+}
+
